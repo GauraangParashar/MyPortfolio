@@ -6,7 +6,7 @@ import Resumecontent from "./ResumeContent";
 import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import axios from "axios";
-import pdf from "../../Assets/Gauraang Parashar CV.pdf";
+import pdf from "../../Assets/Gauraang_CV.pdf";
 
 function Resume() {
   const uri = "#";
@@ -44,19 +44,13 @@ function Resume() {
             <Resumecontent
               title="ENGINEER Under Process "
               date="August 2018 - August 2022"
-              content={[
-                "",
-                " ",
-              ]}
+              content={["", " "]}
             />
             <h3 className="resume-title">Extracurricular Activities</h3>
             <Resumecontent
-              title="Won at various Theater Events"
-              content={[
-                "",
-              ]}
+              title="Sub-National Performer and winner at various Theater Events"
+              content={[""]}
             />
-            
           </Col>
           <Col md={6} className="resume-right">
             <h3 className="resume-title">Education</h3>
@@ -75,7 +69,6 @@ function Resume() {
               date="2015 - 2016"
               content={["Precentage: 85%"]}
             />
-            
           </Col>
         </Row>
         <Row style={{ justifyContent: "center", position: "relative" }}>

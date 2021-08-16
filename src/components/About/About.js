@@ -39,13 +39,10 @@ function About() {
           Professional <strong className="purple">Skillset </strong>
         </h1>
         <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-          <Techstack iconName="devicon-cplusplus-line" />
           <Techstack iconName="devicon-python-plain-wordmark " />
-          
-          
+
           <Techstack iconName="devicon-javascript-plain " />
-       
-          
+
           <Techstack iconName="devicon-react-original-wordmark" />
           <Techstack iconName="devicon-mongodb-plain-wordmark" />
           <Techstack iconName="devicon-git-plain-wordmark" />
@@ -55,11 +52,9 @@ function About() {
           <strong className="purple">Tools</strong> I use
         </h1>
         <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-          
           <Techstack iconName="cib-visual-studio-code" />
           <Techstack iconName="cib-anaconda" />
-        
-       
+
           <Techstack iconName="cib-heroku" />
         </Row>
         <Github />
